@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J DAU — Marketing, SEO, Branding, Design</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f0f0f;
+    color: #e5e5e5;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+section {
+    padding: 100px 10%;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 64px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #d62828;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #cfcfcf;
+    max-width: 900px;
+}
+
+/* HERO */
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('https://images.unsplash.com/photo-1572521165329-b197f9ea3da6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+/* GRUNGE TEXTURE EFFECT */
+section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+/* SERVICES GRID */
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+/* ADVANTAGES */
+
+.advantage {
+    margin-bottom: 40px;
+}
+
+/* PROCESS */
+
+.process-step {
+    margin-bottom: 40px;
+}
+
+/* CONTACT */
+
+.contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #161616;
+    text-align: center;
+}
+
+.contact a {
+    color: #d62828;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact img {
+    margin-top: 40px;
+    width: 300px;
+    opacity: 0.9;
+}
+
+/* FOOTER */
+
+footer {
+    background: #000;
+    padding: 30px 10%;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- 1. HERO -->
+<section class="hero">
+    <h1>J DAU</h1>
+    <p><strong>Stratégies audacieuses. Marques puissantes. Résultats mesurables.</strong><br><br>
+    Nous transformons des entreprises ambitieuses en références visibles sur leur marché. 
+    De la stratégie marketing à l’optimisation SEO technique, nous construisons des systèmes performants qui génèrent du trafic qualifié, augmentent le taux de conversion et renforcent l’identité de marque.</p>
+</section>
+
+
+<!-- 2. ABOUT -->
+<section>
+    <h2>Identité. Impact. Intensité.</h2>
+    <p>J DAU est une agence indépendante spécialisée en marketing stratégique, SEO avancé et branding à forte identité visuelle. Nous accompagnons des PME, startups et marques digitales qui veulent dépasser la concurrence et imposer leur signature.</p>
+    <p>Notre approche repose sur l’analyse de données concrètes : audit concurrentiel, étude des intentions de recherche, cartographie de positionnement et optimisation des parcours clients.</p>
+    <p>Nous ne créons pas seulement des campagnes — nous construisons des écosystèmes marketing cohérents et durables.</p>
+    <p>Chaque projet démarre par une immersion stratégique afin de comprendre vos objectifs commerciaux, vos marges, vos canaux d’acquisition et vos KPI.</p>
+    <p>Résultat : des stratégies actionnables, structurées et orientées ROI.</p>
+</section>
+
+
+<!-- 3. SERVICES -->
+<section>
+    <h2>Expertises Concrètes</h2>
+    <div class="grid-3">
+        <div>
+            <h3>Marketing Digital & Acquisition</h3>
+            <p>Création de funnels d’acquisition complets : publicité ciblée, automatisation email et stratégie de contenu performante. Nous analysons les coûts d’acquisition et optimisons chaque point de conversion.</p>
+            <p>Notre objectif : transformer le trafic en clients réels.</p>
+        </div>
+
+        <div>
+            <h3>SEO Stratégique & Technique</h3>
+            <p>Audit SEO approfondi, optimisation on-page, architecture de site, netlinking qualitatif et amélioration Core Web Vitals. Nous travaillons sur des mots-clés transactionnels et stratégiques à fort potentiel.</p>
+            <p>Votre visibilité devient un actif durable.</p>
+        </div>
+
+        <div>
+            <h3>Branding & Design Impactant</h3>
+            <p>Création d’identités visuelles fortes : logo, direction artistique, charte graphique et design digital. Chaque élément visuel est pensé pour refléter votre positionnement et susciter la confiance.</p>
+            <p>Une marque mémorable crée un avantage compétitif.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- 4. ADVANTAGES -->
+<section>
+    <h2>Pourquoi J DAU ?</h2>
+
+    <div class="advantage">
+        <h3>Approche orientée performance</h3>
+        <p>Chaque action marketing est mesurée. Nous travaillons avec des indicateurs précis : taux de conversion, coût par lead, retour sur investissement et croissance organique.</p>
+    </div>
+
+    <div class="advantage">
+        <h3>Vision stratégique globale</h3>
+        <p>Nous relions branding, SEO et acquisition dans une seule architecture cohérente. Pas de décisions isolées — seulement une stratégie intégrée.</p>
+    </div>
+
+    <div class="advantage">
+        <h3>Créativité brute & différenciante</h3>
+        <p>Notre style grunge reflète notre philosophie : sortir du standard, créer une présence audacieuse et marquer les esprits durablement.</p>
+    </div>
+</section>
+
+
+<!-- 5. PROCESS -->
+<section>
+    <h2>Notre Méthode en 3 Étapes</h2>
+
+    <div class="process-step">
+        <h3>01 — Audit & Diagnostic</h3>
+        <p>Analyse complète de votre positionnement, performance digitale et concurrence. Identification des opportunités rapides et des leviers stratégiques long terme.</p>
+    </div>
+
+    <div class="process-step">
+        <h3>02 — Construction Stratégique</h3>
+        <p>Définition d’un plan d’action précis : structure SEO, roadmap marketing, identité visuelle et priorités d’exécution.</p>
+    </div>
+
+    <div class="process-step">
+        <h3>03 — Déploiement & Optimisation</h3>
+        <p>Mise en œuvre opérationnelle, suivi des indicateurs clés et amélioration continue basée sur les données réelles.</p>
+    </div>
+</section>
+
+
+<!-- 6. CONTACT -->
+<section class="contact">
+    <h2>Prêts à Fracturer le Marché ?</h2>
+    <p>Discutons de votre croissance. Chaque collaboration commence par un échange stratégique clair et orienté résultats.</p>
+    <p>Écrivez-nous : <a href="mailto:info@jdau.agency">info@jdau.agency</a></p>
+    <p>3 Rue De Strasbourg 44000, Nantes, Pays De La Loire</p>
+    <p>Votre prochaine étape commence ici. Transformons votre vision en domination digitale.</p>
+
+    <img src="https://plus.unsplash.com/premium_photo-1661299218805-b97887e4dce5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG9mZmljZSUyMHRlYW18ZW58MHx8MHx8fDA%3D" alt="Team office">
+</section>
+
+
+<!-- 8. FOOTER -->
+<footer>
+    © 2026 J DAU — Agence Marketing & Branding. Tous droits réservés.
+</footer>
+
+</body>
+</html>
